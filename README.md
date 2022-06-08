@@ -1,2 +1,2 @@
-# LucasFromDK.hithub.io
-My Personal Website
+# My Personal Website:
+# https://LucasFromDK.github.io

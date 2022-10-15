@@ -20,12 +20,17 @@
   font-size: 1rem;
   outline: none;
   transition: ease-in 0.5s;
+
+  background: linear-gradient(to left, rgb(255, 255, 255) 50%, rgb(238, 0, 255) 50%, rgb(149, 0, 255) 100%) right;
+  background-size: 200%;
 }
 
 .cButton:hover {
-  background: linear-gradient(60deg, rgb(238, 0, 255) 0%, rgb(149, 0, 255) 100%);
-  color: white;
+background-position: left;
+color: white
 }
+
+
 
 body {
   margin:0;

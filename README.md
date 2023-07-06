@@ -1,2 +1,2 @@
 # My Personal Website:
-# https://LucasFromDK.github.io
+# https://lucasfromdk.me/

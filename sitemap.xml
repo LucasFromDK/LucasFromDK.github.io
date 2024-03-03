@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lucasfromdk.me/</loc>
+  <lastmod>2024-03-01T23:25:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/index</loc>
+  <lastmod>2024-03-01T23:25:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/websites</loc>
+  <lastmod>2024-03-01T23:25:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/programs</loc>
+  <lastmod>2024-03-01T23:25:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/about</loc>
+  <lastmod>2024-03-01T23:25:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/Blackjack/</loc>
+  <lastmod>2022-10-12T13:16:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/tictactoe/</loc>
+  <lastmod>2022-11-23T08:49:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/Pong/</loc>
+  <lastmod>2022-12-16T09:35:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/Visualizer/</loc>
+  <lastmod>2023-07-10T15:27:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lucasfromdk.me/p5.js-paint/</loc>
+  <lastmod>2022-10-11T08:39:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

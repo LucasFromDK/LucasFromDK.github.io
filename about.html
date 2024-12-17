@@ -6,6 +6,7 @@
   <title>LucasFromDK | About & Contact</title>
   <link rel="shortcut icon" type="image/ico" href="src/images/Favicon.ico">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./bubbles.css">          
 
   <!-- Primary Meta Tags -->
   <meta name="title" content="LucasFromDK | About & Contact" />
@@ -16,7 +17,8 @@
   <meta property="og:url" content="https://lucasfromdk.me/about" />
   <meta property="og:title" content="LucasFromDK | About & Contact" />
   <meta property="og:description" content="The About & Contact page on my small hub of websites." />
-  <meta property="og:image" content="https://raw.githubusercontent.com/LucasFromDK/LucasFromDK.github.io/main/images/vaporwave.png" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/LucasFromDK/LucasFromDK.github.io/main/images/vaporwave.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="Image" />
@@ -45,8 +47,16 @@
 
   <div class="header">
     <button id="theme-switch">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"></path></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+        <path
+          d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z">
+        </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+        <path
+          d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z">
+        </path>
+      </svg>
     </button>
     <script src="src/scripts/darkmode.js"></script>
 
@@ -56,26 +66,90 @@
     </div>
     <!--Website Buttons-->
     <div class="container">
-      <p class="infoText" ;>Hello, my name is Lucas and I'm a developer from Denmark.</p>
-      <p class="smallinfoText">I'm <span id="ageHolder"></span> years old, and currently a student at <a class="aText" href="https://www.ku.dk/en">UCPH</a> at the Department of Computer Science.</p>
-      <p class="smallinfoText">Currently I'm learning F# and Python, but I have experience with JavaScript and C#.</p>
+      <p class="infoText">About Me</p>
+      <div class="bubbleGlass">
+        <div class="bubble-container">
+          <div class="bubble bubble1"></div>
+          <div class="bubble bubble2"></div>
+          <div class="bubble bubble3"></div>
+          <div class="bubble bubble4"></div>
+        </div>
+        <p class="smallinfoText" ;>Hello, my name is Lucas and I'm a developer from Denmark.</p>
+        <p class="smallinfoText">I'm <span id="ageHolder"></span> years old, and currently a student at <a class="aText"
+            href="https://www.ku.dk/en">UCPH</a> at the Department of Computer Science.</p>
+        <p class="smallinfoText">I enjoy videogames and coding to gain experience but also to create useful tools for
+          myself.</p>
+      </div>
+      <p class="infoText">Techstack</p>
+      <div class="listGlass">
+        <p class="smallinfoText">Languages</p>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="42" height="42" />
 
-      <p class="infoText" ;>You can reach me here:</p>
-      <a href="https://discord.com/users/363341174250930178">
-        <img
-          src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge"
-          height="40" alt="discord logo" />
-      </a>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="42" height="42" />
+        
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42" />
 
-      <a href="https://twitter.com/LucasFromDK">
-        <img
-          src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge"
-          height="40" alt="twitter logo" />
-      </a>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" alt="JSON" width="42" height="42"/>
+
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" />
+
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="42" height="42" />
+
+        <br>
+        <p class="smallinfoText">Tools / Frameworks</p>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="vs code" width="42" height="42"/>
+        
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" alt="vs studio" width="42" height="42" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" width="42" height="42"/>
+
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42" />
+        
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/p5js/p5js-original.svg" alt="P5.js" width="42" height="42" />
+          
+        <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="42" height="42" />
+
+        <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="42" height="42" />
+        
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-plain.svg" alt="Discord.js" width="42" height="42" />
+        
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" alt="Insomnia" width="42" height="42" />
+        <br>
+        <p class="smallinfoText">Documentation</p>
+        
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" alt="Markdown" width="42" height="42"/>
+          
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tex/tex-original.svg" alt="TeX" width="42" height="42"/>
+        
+      </div>
+      <p class="infoText">Learning</p>
+      <div class="listGlass">
+        <p class="smallinfoText">Currently I'm learning F# and improving my Python capabilities.</p>
+        <img src="https://fsharp.org/img/logo/fsharp256.png" alt="F-Sharp" width="42" height="42">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+          alt="python" width="42" height="42" />
+      </div>
+      <p class="infoText" ;>Contact</p>
+      <div class="listGlass">
+        <p class="smallinfoText">To contact me you can use one of the following services</p>
+        <a href="https://discord.com/users/363341174250930178">
+          <img
+            src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge"
+            height="40" alt="discord logo" />
+        </a>
+
+        <a href="https://twitter.com/LucasFromDK">
+          <img
+            src="https://img.shields.io/static/v1?message=X (Twitter)&logo=x&label=&color=black&logoColor=white&labelColor=&style=for-the-badge"
+            height="40" alt="twitter logo" />
+        </a>
+      </div>
     </div>
 
     <!--Waves Container-->
-    <div class="waveFooter">
+    <div class="waveDist">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -96,10 +170,13 @@
 
   <!--Content starts-->
   <div class="footer">
-    <p class="footer-text">Website By <a href="https://github.com/LucasFromDK">@LucasFromDK</a> | <script>document.write(new Date().getFullYear());</script></p>
+    <p class="footer-text">Website By <a href="https://github.com/LucasFromDK">@LucasFromDK</a> |
+      <script>document.write(new Date().getFullYear());</script>
+    </p>
   </div>
   <!--Content ends-->
 
 </body>
 <script src="src/scripts/ageCalc.js"></script>
+
 </html>

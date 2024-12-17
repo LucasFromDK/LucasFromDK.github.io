@@ -1,0 +1,47 @@
+/*Random Drink Button Effect*/
+.glow {
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.glow::after,
+.glow::before {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  background-image: conic-gradient(from var(--angle), transparent 50%, gold 50%);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 2px;
+  border-radius: 10px;
+  animation: 4s spin linear infinite;
+}
+
+.glow::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+
+  to {
+    --angle: 360deg;
+  }
+}
+
+/*End*/

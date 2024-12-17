@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <title>LucasFromDK | Fun & Games</title>
   <link rel="shortcut icon" type="image/ico" href="src/images/Favicon.ico">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./glow.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/glow.css">
 
   <!-- Primary Meta Tags -->
   <meta name="title" content="LucasFromDK | Fun & Games" />
@@ -53,21 +53,29 @@
 
     <!--Content before waves-->
     <div class="inner-header flex">
-      <h1>Here you can find my other websites!</h1>
+      <h1>Games and other websites!</h1>
     </div>
 
     <!--Website Buttons-->
     <div class="container">
       <p class="infoText">Press a button below to visit a Website or Game!</p>
 
+      <p class="infoText">Tic Tac Toe</p>
+      <div class="listGlass">
+        <p class="smallinfoText">The classic game of Tic Tac Toe, this was developed using P5.js</p>
+        <div style="width: 300px; height: 300px; overflow: hidden; margin-left: auto; margin-right: auto;">
+          <iframe src="https://editor.p5js.org/LucasFromDK/full/LWp-Otr4k" width="300" height="342" style="position: relative; top: -45px"></iframe>
+        </div>
+        <div class="glow">
+        <a href="https://lucasfromdk.me/tictactoe/">
+          <button class="cButton"> TicTacToe</button>
+        </a>
+      </div>
+      </div>
+      <br>
       <a href="https://lucasfromdk.me/Blackjack/">
         <button class="cButton"> Blackjack</button>
       </a>
-
-      <a href="https://lucasfromdk.me/tictactoe/">
-        <button class="cButton"> TicTacToe</button>
-      </a>
-
       <a href="https://lucasfromdk.me/Pong/">
         <button class="cButton">Pong</button>
       </a>
@@ -86,7 +94,7 @@
     </div>
 
     <!--Waves Container-->
-    <div class="waveFooter">
+    <div class="waveDist">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -106,8 +114,10 @@
   <!--Header ends-->
 
   <!--Content starts-->
-  <div class="footer-text">
-    <p>Website By <a href="https://github.com/LucasFromDK">@LucasFromDK</a> | <script>document.write(new Date().getFullYear());</script></p>
+  <div class="footer">
+    <p class="footer-text">Website By <a href="https://github.com/LucasFromDK">@LucasFromDK</a> |
+      <script>document.write(new Date().getFullYear());</script>
+    </p>
   </div>
   <!--Content ends-->
 </body>

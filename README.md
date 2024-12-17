@@ -1,2 +1,1 @@
-# My Personal Website:
-# https://lucasfromdk.me/
+# [My Personal Website](<https://lucasfromdk.me/>)

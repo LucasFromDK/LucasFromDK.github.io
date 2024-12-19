@@ -6,7 +6,31 @@
   --sideDistance: 3px
 }
 
+img {
+  padding: 5px;
+}
+
 /*Glass*/
+.techStackGlass{
+  position: relative;
+  width: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.1);
+  /* Semi-transparent white */
+  border-radius: 15px;
+  box-shadow: var(--boxShadow);
+  /* Soft shadow */
+  backdrop-filter: blur(15px);
+  /* Apply blur effect */
+  -webkit-backdrop-filter: blur(15px);
+  /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* Subtle border for glass effect */
+}
+
 .listGlass {
   position: relative;
   width: fit-content;

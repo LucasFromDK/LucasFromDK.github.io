@@ -1,16 +1,135 @@
 /*Shrinking for mobile*/
 @media (max-width: 1000px) {
-    .content {
-      height: 30vh;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    .waveDist, .waveFooter {
-      position: absolute;
-      width: 100%;
-      bottom: 0px;
-      height: fit-content;
-      margin-top: 20px;
-    }
+
+  .waves {
+    height: 40px;
+    min-height: 40px;
   }
+
+  .content {
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .infoText {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff
+  }
+
+  .smallinfoText {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff
+  }
+
+  .aText {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  #imgGlow {
+    width: 85%;
+    /* Scale down the glow container */
+    height: auto;
+    /* Maintain aspect ratio */
+  }
+
+  #imgGlow::before,
+  #imgGlow::after {
+    inset: -1px;
+    /* Reduce the glow size for smaller screens */
+    filter: blur(0.1rem);
+    /* Adjust blur for smaller displays */
+  }
+
+  .topnav {
+    flex-direction: column;
+    /* Stack items vertically */
+    min-height: auto;
+    /* Allow height to adjust */
+    padding: 10px;
+    /* Add padding for smaller screens */
+  }
+
+  .topnav a {
+    padding: 8px 10px;
+    /* Reduce padding for smaller screens */
+    font-size: 16px;
+    /* Adjust font size */
+    width: 100%;
+    /* Make links take full width */
+    text-align: center;
+    /* Center-align text */
+  }
+
+  .topButton {
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: white;
+    transition: ease-in 0.2s;
+    background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1) 100%) right;
+    background-size: 200%;
+  }
+
+  .topnav a.active {
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    color: white;
+    width: 100%;
+  }
+
+  .listGlass {
+    position: relative;
+    width: 90%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: var(--boxShadow);
+    /* Soft shadow */
+    backdrop-filter: blur(15px);
+    /* Apply blur effect */
+    -webkit-backdrop-filter: blur(15px);
+    /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Subtle border for glass effect */
+  }
+
+  .bubbleGlass {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: var(--boxShadow);
+    /* Soft shadow */
+    backdrop-filter: blur(15px);
+    /* Apply blur effect */
+    -webkit-backdrop-filter: blur(15px);
+    /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Subtle border for glass effect */
+  }
+}

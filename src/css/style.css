@@ -3,7 +3,6 @@
 :root {
   --base-color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
   --base-variant: #e8e9ed;
-  --sideDistance: 3px
 }
 
 img {
@@ -71,12 +70,9 @@ img {
   align-items: center;
   position: fixed;
   top: 3px;
-  right: var(--sideDistance);
+  right: 3px;
   cursor: pointer;
-}
-
-#theme-switch svg {
-  fill: var(--primary-color);
+  z-index: 1;
 }
 
 #theme-switch svg:last-child {
@@ -99,8 +95,9 @@ img {
   align-items: center;
   justify-content: center;
   min-height: 6vh;
-  border-bottom: solid;
-  border-color: gold;
+  position: relative; /* Important for positioning the glow */
+  border-bottom: solid gold;
+  z-index: 1;
 }
 
 .topnav a {
@@ -118,7 +115,7 @@ img {
 
 
 .topnav a.active {
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
   color: white;
   width: 165px;
 }
@@ -135,7 +132,7 @@ img {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: inherit;
   color: #fff;
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -173,7 +170,7 @@ img {
   color: white;
   background-color: white;
   transition: ease-in 0.2s;
-  background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgba(0,172,193,1) 50%, rgba(84,58,183,1) 100%) right;
+  background: linear-gradient(to left, rgb(0, 0, 0) 50%, rgba(0, 172, 193, 1) 50%, rgba(84, 58, 183, 1) 100%) right;
   background-size: 200%;
 }
 
@@ -234,6 +231,7 @@ a {
   position: relative;
   text-align: center;
   background: var(--base-color);
+  color: white;
   min-height: 85vh; /* Change value to move bottom white square */
 }
 
@@ -246,7 +244,7 @@ a {
 }
 
 .inner-header {
-  height: fit-content;
+  height: 80px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -275,7 +273,7 @@ a {
 
 .footer-text {
   position: absolute;
-  bottom: 10px;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Lato', sans-serif;
@@ -284,16 +282,16 @@ a {
   color: #333333;
 }
 
+.waveDist {
+  margin-top: 40px;
+}
+
 .waveFooter {
   position: absolute;
   width: 100%;
   bottom: 0px;
   height: fit-content;
   margin-top: 20px;
-}
-
-.waveDist {
-  margin-top: 40px;
 }
 
 .waves {

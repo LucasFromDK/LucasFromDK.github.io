@@ -165,6 +165,7 @@ img {
 
 .topButton {
   margin: 2px;
+  min-width: 170px; /* Fixes width issue on smaller displays | Should be black when not selected */
   cursor: pointer;
   border: none;
   color: white;

@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": false, // default off
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "editor.rulers": [
+        120
+    ]
+}

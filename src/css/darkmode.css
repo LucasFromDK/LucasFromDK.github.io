@@ -1,0 +1,38 @@
+.darkmode {
+    --base-color: black;
+    --boxShadow: 0 10px 20px rgba(255, 255, 255, 0.5);
+    --glowColor: gold;
+    --opacity1: 0.5;
+    --opacity2: 0.6;
+}
+
+.icon {
+    color: var(--arrow-color);
+}
+
+#theme-switch {
+    height: 5.4vh;
+    width: 5.4vh;
+    padding: 0;
+    border-radius: 100%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 3px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  #theme-switch svg:last-child {
+    display: none;
+  }
+  
+  .darkmode #theme-switch svg:first-child {
+    display: none;
+  }
+  
+  .darkmode #theme-switch svg:last-child {
+    display: block;
+  }

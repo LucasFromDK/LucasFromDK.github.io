@@ -4,36 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LucasFromDK | Home Page</title>
+  <title>LucasFromDK | Clients</title>
   <link rel="shortcut icon" type="image/ico" href="src/images/Favicon.ico">
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="src/css/darkmode.css">
+  <link rel="stylesheet" href="src/css/glow.css">
   <link rel="stylesheet" href="src/css/mediaShrink.css">
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="LucasFromDK | Home Page" />
-  <meta name="description" content="The main page for my small hub of websites with games and other fun content." />
+  <meta name="title" content="LucasFromDK | Clients" />
+  <meta name="description" content="The Clients page on my small hub of websites with client projects and work." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://lucasfromdk.me/" />
-  <meta property="og:title" content="LucasFromDK | Home Page" />
+  <meta property="og:url" content="https://lucasfromdk.me/clients" />
+  <meta property="og:title" content="LucasFromDK | Clients" />
   <meta property="og:description"
-    content="The main page for my small hub of websites with games and other fun content." />
+    content="The Clients page on my small hub of websites with client projects and work." />
   <meta property="og:image"
     content="https://raw.githubusercontent.com/LucasFromDK/LucasFromDK.github.io/main/src/images/vaporwave.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="Image" />
-  <meta property="twitter:url" content="https://lucasfromdk.me/" />
-  <meta property="twitter:title" content="LucasFromDK | Home Page" />
+  <meta property="twitter:url" content="https://lucasfromdk.me/clients" />
+  <meta property="twitter:title" content="LucasFromDK | Clients" />
   <meta property="twitter:description"
-    content="The main page for my small hub of websites with games and other fun content." />
+    content="The Clients page on my small hub of websites with client projects and work." />
   <meta property="twitter:image"
     content="https://raw.githubusercontent.com/LucasFromDK/LucasFromDK.github.io/main/src/images/vaporwave.png" />
 
   <!-- Meta Tags Generated with https://metatags.io -->
-  <meta property="keywords" content="LucasFromDK">
+  <meta property="keywords"
+    content="LucasFromDK, Clients, Client Projects, Client Work, Client Development, Client Software">
   <meta name="robots" content="all">
   <meta property="author" content="LucasFromDK">
 </head>
@@ -41,10 +43,10 @@
 <body>
   <div class="topnav">
     <!--Theme Switch gets added here by darkmode.js-->
-    <a class="active" href="https://lucasfromdk.me/">Home Page</a>
+    <a class="topButton" href="https://lucasfromdk.me/">Home Page</a>
     <a class="topButton" href="websites">Fun & Games</a>
-    <a class="topButton" href="programs">Programs & Scripts</a>
-    <a class="topButton" href="clients">Clients</a>
+    <a class="topButton" href="programs">Programs & Tools</a>
+    <a class="active" href="clients">Clients</a>
     <a class="topButton" href="about">About & Contact</a>
   </div>
 
@@ -54,19 +56,37 @@
 
     <!--Content before waves-->
     <div class="inner-header flex">
-      <h1>Welcome to my website!</h1>
+      <h1>Clients</h1>
     </div>
+
+    <!--Website Buttons-->
     <div class="container">
-      <p class="infoText" ;>Hello, my name is Lucas.</p>
-      <p class="smallinfoText">You can see my work by pressing the buttons located at the top to select a category.</p>
-      <p class="smallinfoText">I hope you enjoy your stay! If you want to know more about me <a class="aText"
-          href="https://lucasfromdk.me/about">click here.</a></p>
-      <p class="smallinfoText">Please note this website is optimised for PC use, most features should also work on other
-        devices but is not guaranteed.</p>
+      <p class="infoText">You can read more about each client project below.</p>
+
+      <a class="awhite" href="https://sawhorsela.com/">
+        <h2>Sawhorse</h2>
+      </a>
+      <div class="listGlass" width="981px">
+        <img style="background-color: white; border-radius: 10px;" src="src/images/clients/Sawhorse.png">
+        <!--Width Set to match Image Width to fit under it-->
+        <div style="width: 981px;">
+          <h2>The Odyssey</h2>
+          <p class="smallinfoText">I had the pleasure of working on a Discord
+            Bot System used for Digital quests, some leading to IRL locations with a representative waiting with an IRL
+            reward for being one of the first to solve it. It was a part of promoting the movie <a class="awhite"
+              href="https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)">The
+              Odyssey</a> ahead of it's release.</p>
+          <a href="https://discord.gg/invite/odysseymovie">
+            <img
+              src="https://img.shields.io/static/v1?message=The Odyssey&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge"
+              height="40" alt="discord logo" />
+          </a>
+        </div>
+      </div>
     </div>
 
     <!--Waves Container-->
-    <div class="waveFooter">
+    <div class="waveDist">
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -82,6 +102,7 @@
     </div>
     <!--Waves end-->
   </div>
+
   <!--Header ends-->
 
   <!--Content starts-->
@@ -94,7 +115,6 @@
     </div>
   </div>
   <!--Content ends-->
-
 </body>
 
 </html>

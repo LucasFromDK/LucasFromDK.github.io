@@ -1,0 +1,8 @@
+/*Import other CSS files to make HTML import easier*/
+@import url("style.css");
+@import url("backToTop.css");
+@import url("clientStyle.css");
+@import url("darkmode.css");
+@import url("glow.css");
+@import url("mediaShrink.css");
+@import url("bubbles.css");

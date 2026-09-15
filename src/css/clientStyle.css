@@ -1,0 +1,25 @@
+.sawhorse {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.clientName {
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.clientA {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: white;
+
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
